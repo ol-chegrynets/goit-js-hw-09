@@ -1,0 +1,22 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 24px;
+    margin-left: 0; 
+    padding-left: 0;
+  
+  }
+  
+  .gallery-item {
+    list-style-type: none; 
+    width: 360px;
+    height: 300px;
+   }
+  .gallery-link{
+    display: block;
+    width: 360px;
+    height: 300px;
+  }
